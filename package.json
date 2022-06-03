@@ -1,0 +1,28 @@
+{
+  "name": "express-react-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "client-install": "cd client && npm install",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksdev22/react-express-tutorial-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksdev22/react-express-tutorial-1/issues"
+  },
+  "homepage": "https://github.com/ksdev22/react-express-tutorial-1#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
